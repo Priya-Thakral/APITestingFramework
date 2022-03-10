@@ -11,7 +11,7 @@ import com.w2a.SetUp.BaseTest;
 
 public class DataUtil extends BaseTest{
 	
-	@DataProvider(name="data",parallel=true)
+	@DataProvider(name="data")
 	public static Object[][] getData(Method m) {
 
 		int rows = excel.getRowCount(config.getProperty("testDataSheetName"));

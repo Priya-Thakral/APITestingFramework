@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.251 s <<< FAILURE! - in TestSuite
+deleteCustomer(com.w2a.testcases.DeleteCustomerTest)  Time elapsed: 0.909 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.w2a.testcases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:31)
+
